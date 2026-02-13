@@ -1,0 +1,91 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex e69de29..fadedbd 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,48 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="th">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>My Portfolio</title>[m
+[32m+[m[32m    <link rel="stylesheet" href="style.css">[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <header>[m
+[32m+[m[32m        <h1>สวัสดี! ฉันคือ [ชื่อของคุณ]</h1>[m
+[32m+[m[32m        <p>นักพัฒนาเว็บไซต์มือใหม่</p>[m
+[32m+[m[32m    </header>[m
+[32m+[m[41m    [m
+[32m+[m[32m    <main>[m
+[32m+[m[32m        <section id="about">[m
+[32m+[m[32m            <h2>เกี่ยวกับฉัน</h2>[m
+[32m+[m[32m            <p>ฉันกำลังเรียนรู้การพัฒนาเว็บไซต์และตื่นเต้นมากกับเทคโนโลยีใหม่ๆ</p>[m
+[32m+[m[32m        </section>[m
+[32m+[m[41m        [m
+[32m+[m[32m        <section id="skills">[m
+[32m+[m[32m            <h2>ทักษะ</h2>[m
+[32m+[m[32m            <ul>[m
+[32m+[m[32m                <li>HTML</li>[m
+[32m+[m[32m                <li>CSS</li>[m
+[32m+[m[32m                <li>JavaScript (เรียนรู้อยู่)</li>[m
+[32m+[m[32m            </ul>[m
+[32m+[m[32m        </section>[m
+[32m+[m[32m          <section id="projects">[m
+[32m+[m[32m            <h2>โปรเจกต์ของฉัน</h2>[m
+[32m+[m[32m            <div class="project">[m
+[32m+[m[32m                <h3>เว็บไซต์ Portfolio</h3>[m
+[32m+[m[32m                <p>เว็บไซต์แสดงผลงานส่วนตัวที่สร้างด้วย HTML, CSS</p>[m
+[32m+[m[32m                <a href="#" class="project-link">ดูโปรเจกต์</a>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="project">[m
+[32m+[m[32m                <h3>To-Do List App</h3>[m
+[32m+[m[32m                <p>แอปพลิเคชันจดบันทึกรายการสิ่งที่ต้องทำ (กำลังพัฒนา)</p>[m
+[32m+[m[32m                <a href="#" class="project-link">ดูโปรเจกต์</a>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </section>[m
+[32m+[m[32m    </main>[m
+[32m+[m[41m    [m
+[32m+[m[32m    <footer>[m
+[32m+[m[32m        <p>&copy; 2025 My Portfolio</p>[m
+[32m+[m[32m    </footer>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/style.css b/style.css[m
+[1mindex 92edf7c..53f536b 100644[m
+[1m--- a/style.css[m
+[1m+++ b/style.css[m
+[36m@@ -60,4 +60,31 @@[m [mfooter {[m
+     text-align: center;[m
+     padding: 1rem;[m
+     margin-top: 2rem;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.project {[m
+[32m+[m[32m    border: 1px solid #ddd;[m
+[32m+[m[32m    padding: 1.5rem;[m
+[32m+[m[32m    margin-bottom: 1rem;[m
+[32m+[m[32m    border-radius: 4px;[m
+[32m+[m[32m    background-color: #f9f9f9;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.project h3 {[m
+[32m+[m[32m    color: #2c3e50;[m
+[32m+[m[32m    margin-bottom: 0.5rem;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.project-link {[m
+[32m+[m[32m    display: inline-block;[m
+[32m+[m[32m    background-color: #3498db;[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    padding: 0.5rem 1rem;[m
+[32m+[m[32m    text-decoration: none;[m
+[32m+[m[32m    border-radius: 4px;[m
+[32m+[m[32m    margin-top: 1rem;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.project-link:hover {[m
+[32m+[m[32m    background-color: #2980b9;[m
+ }[m
+\ No newline at end of file[m

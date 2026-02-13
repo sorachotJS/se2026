@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Express.js API Server</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 800px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    
+    h1 {
+      color: #667eea;
+      margin-bottom: 10px;
+    }
+    
+    .subtitle {
+      color: #666;
+      margin-bottom: 30px;
+    }
+    
+    .endpoints {
+      background: #f5f5f5;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    
+    .endpoint {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      margin: 5px 0;
+      background: white;
+      border-radius: 5px;
+    }
+    
+    .method {
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-right: 10px;
+      font-size: 12px;
+    }
+    
+    .get { background: #61affe; color: white; }
+    .post { background: #49cc90; color: white; }
+    .put { background: #fca130; color: white; }
+    .delete { background: #f93e3e; color: white; }
+    
+    .path {
+      color: #333;
+      font-family: monospace;
+    }
+    
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      color: #999;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Express.js API Server</h1>
+    <p class="subtitle">Welcome to the Express.js Basics Workshop!</p>
+    
+    <div class="endpoints">
+      <h2>📍 Available Endpoints</h2>
+      
+      <h3 style="margin-top: 20px; color: #667eea;">General</h3>
+      <div class="endpoint">
+        <span class="method get">GET</span>
+        <span class="path">/</span>
+      </div>
+      <div class="endpoint">
+        <span class="method get">GET</span>
+        <span class="path">/health</span>
+      </div>
+      <div class="endpoint">
+        <span class="method get">GET</span>
+        <span class="path">/info</span>
+      </div>
+      
+      <h3 style="margin-top: 20px; color: #667eea;">Users</h3>
+      <div class="endpoint">
+        <span class="method get">GET</span>
+        <span class="path">/api/users</span>
+      </div>
+      <div class="endpoint">
+        <span class="method get">GET</span>
+        <span class="path">/api/users/:id</span>
+      </div>
+      <div class="endpoint">
+        <span class="method post">POST</span>
+        <span class="path">/api/users</span>
+      </div>
+      <div class="endpoint">
+        <span class="method put">PUT</span>
+        <span class="path">/api/users/:id</span>
+      </div>
+      <div class="endpoint">
+        <span class="method delete">DELETE</span>
+        <span class="path">/api/users/:id</span>
+      </div>
+      
+      <h3 style="margin-top: 20px; color: #667eea;">Products</h3>
+      <div class="endpoint">
+        <span class="method get">GET</span>
+        <span class="path">/api/products</span>
+      </div>
+      <div class="endpoint">
+        <span class="method get">GET</span>
+        <span class="path">/api/products/:id</span>
+      </div>
+      <div class="endpoint">
+        <span class="method post">POST</span>
+        <span class="path">/api/products</span>
+      </div>
+    </div>
+    
+    <div class="footer">
+      Made with ❤️ using Express.js
+    </div>
+  </div>
+</body>
+</html>

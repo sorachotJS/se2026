@@ -1,0 +1,15 @@
+[2026-01-31T03:50:55.295Z] [INFO] Test log
+[2026-01-31T03:50:55.298Z] [SUCCESS] Success!
+[2026-01-31T03:50:55.299Z] [ERROR] Error!
+[2026-01-31T03:52:27.379Z] [SUCCESS] Created file: sample.txt
+[2026-01-31T03:52:55.726Z] [INFO] Found 1 file(s):
+[2026-01-31T03:53:33.055Z] [INFO] Content of 'sample.txt':
+[2026-01-31T03:53:55.905Z] [SUCCESS] Created directory: test-folder
+[2026-01-31T03:54:19.863Z] [SUCCESS] Created file: original.txt
+[2026-01-31T03:54:26.695Z] [SUCCESS] Copied original.txt to copied.txt
+[2026-01-31T03:54:33.138Z] [INFO] Content of 'copied.txt':
+[2026-01-31T03:54:42.956Z] [SUCCESS] Deleted file: copied.txt
+[2026-01-31T03:54:48.449Z] [INFO] Found 3 file(s):
+[2026-01-31T07:12:09.991Z] [SUCCESS] Created file: test1.txt
+[2026-01-31T07:12:16.686Z] [INFO] Found 4 file(s):
+[2026-01-31T07:12:25.560Z] [INFO] Content of 'test1.txt':
